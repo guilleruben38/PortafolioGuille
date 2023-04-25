@@ -396,7 +396,7 @@ footer {
     }
   }
   
-  @media (max-width:733px) {
+  @media (max-width:771px) {
     .home {
       position: relative;
       display:grid;
@@ -414,7 +414,7 @@ footer {
     .home .home-img {
       grid-column-start:auto;
       margin-top: 1500px;
-      margin-right: 100px;
+      margin-right: 80px;
       position: absolute;
     }
     .home-content .btn {
@@ -426,7 +426,9 @@ footer {
   }
   @media (max-width:732px) {
  
-  
+  .home {
+    height: 220vh;
+  }
     .home .home-content h1 {
       font-size: 50px;
       display: relative;
@@ -458,7 +460,7 @@ footer {
     }
     .home .home-content .btn {
       position: absolute;
-      top: 1300px;
+      top: 1000px;
       right: 60px;
       width: 80%;
     }
@@ -469,7 +471,7 @@ footer {
   @media (max-width:711px) {
     .home-content .btn {
       margin-left: 40px;
-      margin-top: 600px;
+      margin-top: 400px;
       position: absolute;
 
     }
@@ -483,7 +485,9 @@ footer {
   }
   @media (max-width:411px) {
  
-  
+  .home {
+    height: 250vh;
+  }
     .home .home-content h1 {
       font-size: 25px;
       display: relative;
@@ -507,7 +511,7 @@ footer {
     }
     .home .home-img {
       position: relative;
-      bottom: 850px; 
+      bottom: 730px; 
       width: 10px;
       left: -100px;
  
@@ -515,11 +519,19 @@ footer {
     }
     .home .home-content .btn {
       position: absolute;
-      top: 1300px;
+      top: 1250px;
       left: 1px;
       width: 70%;
     }
     }
 
+    @media (max-width:290px)  {
+      .home .home-content .btn {
+        position: absolute;
+        top: 1290px;
+        left: 1px;
+        width: 70%;
+      }
+    }
   
   
