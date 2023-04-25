@@ -413,17 +413,59 @@ footer {
     }
     .home .home-img {
       grid-column-start:auto;
-      margin-top: 1600px;
+      margin-top: 1500px;
       margin-right: 100px;
       position: absolute;
     }
     .home-content .btn {
-      margin-left: 40px;
-      margin-top: 6000px;
+      margin-left: 250px;
+      margin-top: 400px;
       position: absolute;
 
     }
   }
+  @media (max-width:732px) {
+ 
+  
+    .home .home-content h1 {
+      font-size: 50px;
+      display: relative;
+      margin-left: -21px;
+      bottom : 400px;
+    }
+    .home .home-content h3 span {
+      font-size: 23px;
+      margin-left: -8px;
+      display: block;
+    }
+    .home .home-content h3 {
+      font-size: 25px;
+      margin-left: -20px;
+    }
+    .home .home-content p {
+      max-width: 1000px;
+      margin-left: -20px;
+      height: 10vh;
+
+    }
+    .home .home-img {
+      position: relative;
+      bottom: 1050px; 
+      width: 10px;
+      left: -10px;
+ 
+      
+    }
+    .home .home-content .btn {
+      position: absolute;
+      top: 1300px;
+      right: 60px;
+      width: 80%;
+    }
+  }
+
+  
+  
   @media (max-width:711px) {
     .home-content .btn {
       margin-left: 40px;
@@ -465,7 +507,7 @@ footer {
     }
     .home .home-img {
       position: relative;
-      bottom: 700px; 
+      bottom: 850px; 
       width: 10px;
       left: -100px;
  
@@ -473,17 +515,10 @@ footer {
     }
     .home .home-content .btn {
       position: absolute;
-      top: 1350px;
-      right: 130px;
+      top: 1300px;
+      left: 1px;
+      width: 70%;
     }
-    }
-
-    @media (max-width:290px) {
-      .home .home-content .btn {
-        position: absolute;
-        top: 1250px;
-        right: 60px;
-      }
     }
 
   
