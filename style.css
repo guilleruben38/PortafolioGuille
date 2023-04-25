@@ -476,6 +476,14 @@ footer {
 
     }
   }
+  @media (max-width:605px) {
+    .home .home-content .btn {
+      position: absolute;
+      top: 1000px;
+      left: 1px;
+      width: 70%;
+    }
+  }
 
   @media (max-width:562px) {
     .container-form {
@@ -525,12 +533,30 @@ footer {
     }
     }
 
+    @media (max-width:297px)  {
+      .home .home-content .btn {
+        position: absolute;
+        top: 1280px;
+        left: 1px;
+        width: 70%;
+      }
+    }
+
+    
     @media (max-width:290px)  {
       .home .home-content .btn {
         position: absolute;
-        top: 1290px;
+        top: 1270px;
         left: 1px;
         width: 70%;
+      }
+      .home .home-img {
+        position: relative;
+        bottom: 760px; 
+        width: 10px;
+        left: -100px;
+   
+        
       }
     }
   
